@@ -1,0 +1,17 @@
+core:
+  logger:
+    console_level: 'DEBUG'
+    file_level: 'DEBUG'
+    max_file_size: 10485760
+    entry_log_date: 1
+    log_filename: 'runtime.log'
+    error_filename: 'error.log'
+
+communicators:
+  telegram:
+    bot_token: ""
+    
+plugins:
+  weather:
+    default_city: "Moscow"
+    openweathermap_appid: ""
