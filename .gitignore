@@ -1,0 +1,17 @@
+# Pycharm
+.idea/
+
+# Config files
+*.yaml
+*.xml
+
+# Python files
+*.pyc
+*.pyo
+
+# Other
+*.txt
+*.dat
+*.log
+*.zip
+*.temp
